@@ -5,17 +5,16 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import Homepage from './pages/Homepage.js';
-console.log(Homepage);
+import VideoPage from './pages/VideoPage.js';
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Homepage />,
-        children: [
-            {
-                path: ""
-            }
-        ]
+    },
+    {
+        path: "/videotest",
+        element: <VideoPage />
     }
 ])
 
