@@ -1,6 +1,8 @@
+import './Navbar.css';
+
 function Navbar() {
     return (
-        <nav><a>Nav-item</a></nav>
+        <nav className="navbar"><a>Nav-item</a></nav>
     )
 }
 
